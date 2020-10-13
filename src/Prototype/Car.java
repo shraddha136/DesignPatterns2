@@ -23,8 +23,7 @@ public class Car {
 class Dashboard implements Cloneable{
     private String display;
     private int vent;
-    List<String> features = new ArrayList<>()
-;
+    List<String> features = new ArrayList<>();
     public String getDisplay() {
         return display;
     }
